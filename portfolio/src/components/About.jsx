@@ -1,6 +1,7 @@
 import React from "react";
 // import image5 from "../Assets/image4.jpeg"
 import image5 from "../Assets/image5.jpeg";
+import image10 from "../Assets/image10.jpeg";
 
 const About = () => {
   const info = [
@@ -57,7 +58,7 @@ const About = () => {
                   ))}
                 </div>
                 <br />
-                <a href="/Assets/cv.pdf" download>
+                <a href={image10} download>
                   <button className="btn-primary ">Download CV</button>
                 </a>
               </div>
